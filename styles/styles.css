@@ -1,0 +1,21 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("formulario.css");
+@import url("rodape.css");
+@import url("cadastro.css");
+
+:root {
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: #222831;
+    --fonte-principal: "Poppins";
+    --cinza: #31363F;
+    --fonte-secundario: "Josefin Sans";
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
